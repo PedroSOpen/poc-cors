@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: terminal-shop-services
+  server:
+    port: 8080
+
+springdoc:
+  show-actuator: false
+  api-docs:
+    path: /swagger-ui.html
+
+endpoints:
+  url-base-env: ""
+  api: api
+  enable-mock: true
+
+manager:
+  endpont:
+    health:
+      url: http://localhost:8080/
