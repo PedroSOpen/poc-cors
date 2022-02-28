@@ -1,6 +1,6 @@
 spring:
   application:
-    name: terminal-shop-services
+    name: poc-cors
   server:
     port: 8080
 
